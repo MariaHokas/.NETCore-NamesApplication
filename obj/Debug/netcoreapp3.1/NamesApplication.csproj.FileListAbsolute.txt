@@ -86,7 +86,6 @@ C:\Users\maria\source\repos\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplic
 C:\Users\maria\source\repos\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\maria\source\Harjoitus\NamesApplication\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\maria\source\Harjoitus\NamesApplication\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\maria\source\Harjoitus\NamesApplication\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\maria\source\Harjoitus\NamesApplication\bin\Debug\netcoreapp3.1\NamesApplication.exe
 C:\Users\maria\source\Harjoitus\NamesApplication\bin\Debug\netcoreapp3.1\NamesApplication.deps.json
 C:\Users\maria\source\Harjoitus\NamesApplication\bin\Debug\netcoreapp3.1\NamesApplication.runtimeconfig.json
@@ -163,10 +162,11 @@ C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesAp
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.AssemblyInfo.cs
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.csproj.CoreCompileInputs.cache
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.RazorTargetAssemblyInfo.cache
-C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.csproj.CopyComplete
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\staticwebassets\NamesApplication.StaticWebAssets.Manifest.cache
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\staticwebassets\NamesApplication.StaticWebAssets.xml
+C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\scopedcss\bundle\NamesApplication.styles.css
+C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.RazorTargetAssemblyInfo.cache
+C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.csproj.CopyComplete
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.dll
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.pdb
 C:\Users\maria\source\Harjoitus\NamesApplication\obj\Debug\netcoreapp3.1\NamesApplication.genruntimeconfig.cache

@@ -13,10 +13,10 @@ namespace NamesApplication.Controllers
     {
         [HttpGet]
         [Route("all")]
-        public List<Name> GetAllNamesToList()
+        public List<NamesTable> GetAllNamesToList()
         {
-            devacademy2021Context db = new devacademy2021Context();
-            List<Name> name = db.Names.ToList();
+            devAcademy2021Context db = new devAcademy2021Context();
+            List<NamesTable> name = db.NamesTables.ToList();
             return name;
         }
 
@@ -24,12 +24,12 @@ namespace NamesApplication.Controllers
         [Route("mostpopular")]
         public IActionResult GetNamesOrderByPopularity()
         {
-            devacademy2021Context db = new devacademy2021Context();
-            var mostPopular = (from n in db.Names
+            devAcademy2021Context db = new devAcademy2021Context();
+            var mostPopular = (from n in db.NamesTables
                                orderby n.Amount descending
                                select new
                                {
-                                n.Name1,
+                                n.Names,
                                 n.Amount,
                                }).ToList();
             return Ok(mostPopular);
@@ -39,12 +39,12 @@ namespace NamesApplication.Controllers
         [Route("alphabeticalorder")]
         public IActionResult GetNamesAlphabeticalOrder()
         {
-            devacademy2021Context db = new devacademy2021Context();
-            var mostPopular = (from n in db.Names
-                               orderby n.Name1
+            devAcademy2021Context db = new devAcademy2021Context();
+            var mostPopular = (from n in db.NamesTables
+                               orderby n.Names
                                select new
                                {
-                                   n.Name1,
+                                   n.Names,
                                    n.Amount,
                                }).ToList();
             return Ok(mostPopular);
@@ -54,8 +54,8 @@ namespace NamesApplication.Controllers
         [Route("takeonename")]
         public IActionResult GetOneName(string name)
         {
-            devacademy2021Context db = new devacademy2021Context();
-            List<Name> names = db.Names.Where(d => d.Name1 == name).ToList();
+            devAcademy2021Context db = new devAcademy2021Context();
+            List<NamesTable> names = db.NamesTables.Where(d => d.Names == name).ToList();
             return Ok(names);
         }
 
@@ -63,8 +63,8 @@ namespace NamesApplication.Controllers
         [Route("sum")]
         public IActionResult GetTotalAmount()
         {
-            devacademy2021Context db = new devacademy2021Context();
-            var totalAmount = db.Names.Select(x => x.Amount).ToList().Sum();
+            devAcademy2021Context db = new devAcademy2021Context();
+            var totalAmount = db.NamesTables.Select(x => x.Amount).ToList().Sum();
             return Ok(totalAmount);
         }
     }
